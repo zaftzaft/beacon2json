@@ -12,7 +12,7 @@ import (
 
 type Beacon struct {
 	Timestamp int64  `json:"timestamp"`
-	Source    string `json:"soruce"`
+	Source    string `json:"source"`
 	SSID      string `json:"ssid"`
 	Freq      uint   `json:"freq"`
 	Signal    int8   `json:"signal"`
